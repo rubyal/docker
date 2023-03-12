@@ -10,4 +10,4 @@ RUN echo ${COMMAND_B}
 RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 
 COPY ./app /app
-CMD [ "python3.11","test.py" ]
+#CMD [ "python3.11","test.py" ]
